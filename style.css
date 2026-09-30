@@ -1,7 +1,18 @@
+:root{
+  --cor-fundo:#f4f1ea;
+  --cor-texto:#222222;
+  --cor-principal:#315c3b;
+  --cor-secundaria:#8aa66f;
+  --cor-card:;
+  --cor-superfice:;
+  --cor-rodape:;
+  --cor-clara:;
+  --cor-legenda:;
+}
 
 body {
-  background-color: #f4f1ea;
-  color: #222222;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
   font-family: Arial, sans-serif;
   margin: 0;
 }
@@ -18,7 +29,7 @@ h1 {
 }
 
 h2 {
-  color: #315c3b;
+  color: var(--cor-principal);
 }
 
 p {
@@ -41,7 +52,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #8aa66f;
+  background-color: var(--cor-secundaria);
 }
 
 main {
