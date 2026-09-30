@@ -4,10 +4,10 @@
   --cor-principal:#315c3b;
   --cor-secundaria:#8aa66f;
   --cor-card:;
-  --cor-superfice:;
+  --cor-superfice:white;
   --cor-rodape:;
-  --cor-clara:;
-  --cor-legenda:;
+  --cor-clara:white;
+  --cor-legenda:#555555;
 }
 
 body {
@@ -18,8 +18,8 @@ body {
 }
 
 header {
-  background-color: #315c3b;
-  color: white;
+  background-color: var(--cor-principal);
+  color: var(--cor-clara);
   text-align: center;
   padding: 30px;
 }
@@ -61,7 +61,7 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: var(--cor-superfice);
   margin: 20px 0;
   padding: 20px;
   border-radius: 12px;
@@ -78,7 +78,7 @@ img {
 figcaption {
   text-align: center;
   font-size: 14px;
-  color: #555555;
+  color: var(--cor-legenda);
   margin-top: 8px;
 }
 
@@ -112,7 +112,7 @@ button {
 }
 
 button:hover {
-  background-color: #8aa66f;
+  background-color: var(--cor-secundaria);
 }
 
 .curtir {
