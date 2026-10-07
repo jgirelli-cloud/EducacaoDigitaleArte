@@ -1,14 +1,16 @@
+/*
 :root{
   --cor-fundo:#f4f1ea;
   --cor-texto:#222222;
   --cor-principal:#315c3b;
   --cor-secundaria:#8aa66f;
-  --cor-card:;
+  --cor-card:#315c3b;
   --cor-superfice:white;
   --cor-rodape:;
   --cor-clara:white;
   --cor-legenda:#555555;
 }
+  */
 
 body {
   background-color: var(--cor-fundo);
@@ -92,7 +94,7 @@ figcaption {
 
 .card h3 {
   margin-top: 0;
-  color: #315c3b;
+  color: var(--cor-card);
 }
 
 footer {
