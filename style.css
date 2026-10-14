@@ -6,7 +6,7 @@
   --cor-secundaria:#8aa66f;
   --cor-card:#315c3b;
   --cor-superfice:white;
-  --cor-rodape:;
+  --cor-rodape:#5f7f52;
   --cor-clara:white;
   --cor-legenda:#555555;
 }
@@ -46,7 +46,7 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  background-color: #5f7f52;
+  background-color: var(--cor-rodape);
   padding: 10px 15px;
   border-radius: 8px;
   margin: 5px;
@@ -90,6 +90,7 @@ figcaption {
   margin: 15px 0;
   border-left: 6px solid #315c3b;
   border-radius: 10px;
+  flex: 1 1 300px;
 }
 
 .card h3 {
